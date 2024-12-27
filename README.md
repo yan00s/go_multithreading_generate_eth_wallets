@@ -1,6 +1,6 @@
 ## Ethereum Wallet Generation with Threading on GOlang
 
-This project is a multi-threaded Ethereum wallet generator, which can also be used as a cpu benchmark.
+This project is a multi-threaded Ethereum wallet generator, which can also be used as a simple cpu benchmark.
 
 ### Benchmark Results:
 
