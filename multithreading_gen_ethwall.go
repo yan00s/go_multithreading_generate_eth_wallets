@@ -148,9 +148,10 @@ func main() {
 	}
 
 	wait_finish(finish_chan, thread_count)
-	results_wallets := get_result(res_chan, count_mnemon)
-
 	fmt.Println(get_result_time(bef_time))
+	
+	results_wallets := get_result(res_chan, count_mnemon)
 	write_result(strings.Join(results_wallets, "\n"))
+	
 	fmt.Println("count:", len(results_wallets))
 }
